@@ -158,6 +158,10 @@ li {
 .ações {
 	margin: 87px;
 }
+.ação3 {
+	position: relative;
+	height: 10px;
+}
 
 .ações h1 {
 	position: relative;
@@ -237,14 +241,14 @@ li {
 
 .ação3 video {
 	position: relative;
-	top: -865px;
+	top: -640px;
 	left: 150px;
 }
 
 .ação3 h2 {
 	display: flex;
 	position: absolute;
-	top: -820px;
+	top: -580px;
 	left: 140px;
 	font-family: 'Source Sans SourceSansPro-Semibold',sans-serif;
 	font-size: 1.56em;
@@ -259,7 +263,7 @@ li {
 	display: flex;
 	position: relative;
 	left: 150px;
-	top: -810px;
+	top: -528px;
 	width: 40%;
 	line-height: 1.1em;
 
@@ -267,7 +271,7 @@ li {
 
 .fundo{
 	position: relative;
-	top: -750px;
+	/*top: -50px;*/
 	width: 100%;
 
 
@@ -275,13 +279,109 @@ li {
 
 .contatos {
 	position: absolute;
-	width: 35%;
-	height: 50%;
-	top: 100%;
+	width: 34%;
+	height: 30%;
+	top: 320px;
+	left: 770px;
 	background-color: #fff;
 	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+
 
 }
 
+.contatos h1 {
+	position: relative;
+	top: -10px;
+	left: -40px;
+	font-family: 'Source Sans SourceSansPro-Bold',sans-serif;
+	font-size: 1.88em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.61em;
+	letter-spacing: 0em;
+	
+
+}
+
+.contatos p {
+	position: relative;
+	top: 50px;
+	left: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Source Sans SourceSansPro-Regular',sans-serif;
+	font-size: 0.88em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.2em;
+	letter-spacing: 0em;
+	
+}
+#email{
+	position: relative;
+	top: 30px;
+	left: -150px;
+}
+
+
+#conta{
+	position: relative;
+	font-size:15px;
+	top: -40px; 
+	left: 20px;
+}
+.contatos img {
+	position: relative;
+	width: 30%;
+	top: -70px;
+	left: -250px;
+}
+.contatos a{
+	position: relative;
+	top: 90px;
+	left: 250px;
+	
+}
+
+.contatos h2 {
+	position: relative;
+	top: 70px;
+	left: -220px;
+	display: flex;
+	font-family: 'Source Sans SourceSansPro-Regular',sans-serif;
+	font-size: 0.88em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.2em;
+	letter-spacing: 0em;
+	
+}
+
+.contatos h3 {
+	position: relative;
+	top: -10px;
+	left: -160px;
+	display: flex;
+	font-family: 'Source Sans SourceSansPro-Regular',sans-serif;
+	font-size: 0.88em;
+	color: #95989a;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.2em;
+	letter-spacing: 0em;
+
+	
+}
+footer{
+	position: relative;
+}
 
 
